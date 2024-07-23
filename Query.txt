@@ -1,0 +1,14 @@
+CREATE FUNCTION dbo.UrlEncode (@input nvarchar(max))
+RETURNS nvarchar(max)
+ EXTERNAL NAME [URLEncoder].[UrlEncodeFunction].[UrlEncode];
+
+sp_configure 'clr enabled', 1
+GO
+RECONFIGURE
+GO
+
+
+EXEC sp_configure 'show advanced options' , 1;
+RECONFIGURE;
+ SELECT dbo.UrlEncode(N'سلام		**	
+دنیا')
