@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLEncoder", "URLEncoder\URLEncoder.csproj", "{FD214F6E-8296-4092-8825-0930163F9BE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD214F6E-8296-4092-8825-0930163F9BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD214F6E-8296-4092-8825-0930163F9BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD214F6E-8296-4092-8825-0930163F9BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD214F6E-8296-4092-8825-0930163F9BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD8CE6DC-7D05-4668-8D40-B9202B25F483}
+	EndGlobalSection
+EndGlobal
